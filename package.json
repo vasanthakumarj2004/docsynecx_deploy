@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/dev_runner.cjs",
+    "dev:direct": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "preview": "node scripts/preview_server.cjs"
